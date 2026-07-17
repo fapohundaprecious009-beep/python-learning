@@ -4,7 +4,7 @@ while response == "yes":
 
 #Ask the user for two numbers
     num1=float(input("Enter the first number: "))
-    num2=float(input("Enter the second nnumber: "))
+    num2=float(input("Enter the second number: "))
 
 #Ask the user to choose an operator
     operator=input("Choose an operator (+, -, *, /): ")
@@ -25,7 +25,7 @@ while response == "yes":
         print("Invalid operator")
 
 
-    response = input("Do you want to perform another calculaton? (yes/no): ").lower()
+    response = input("Do you want to perform another calculation? (yes/no): ").lower()
 
 print("Thank you for using the calculator!")
 
